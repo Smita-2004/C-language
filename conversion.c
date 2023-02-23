@@ -1,10 +1,19 @@
+// #include<stdio.h>
+// int main()
+// {
+//   int x=10;
+//   char y='a';
+//   x=x+y;
+//   float z=x+1.0;
+//     printf("x=%d,z=%f",x,z);
+//    return 0;
+// }
+
 #include<stdio.h>
 int main()
 {
-    int a=(int)2.3345453453;
-    printf("%d\n",a);
-    
-    float b= (int)3;
-    printf("%f",b);
-    return 0;
+    double x=1.2;
+  int sum=(int)x+1;
+  printf("Sum=%d",sum);
+   return 0;
 }
